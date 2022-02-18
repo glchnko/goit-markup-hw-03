@@ -1,0 +1,226 @@
+
+
+:root{
+     --main-font: "Roboto", sans-serif;
+--secondary-font: "Raleway", sans-serif;
+
+
+--bg-header:#FFFFFF;
+--main-txt-mode-light: #212121;
+--primary-txt-mode-light: #757575;
+--secondary-txt-mode-light: #2196F3;
+
+
+--bg-mode-dark:#2F303A;
+--bg-button: #2196F3;
+--main-txt-mode-dark:#FFFFFF;
+--primary-txt-mode-dark:rgba(255, 255, 255, 0.6);
+--secondary-txt-mode-dark: #2196F3;
+}
+
+body{
+   font-family: var(--main-font);
+}
+
+.header{
+    background-color: var(--bg-header);
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.logo,
+.footer-logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-mode-light);
+    
+}
+.logo-primary{
+    color: var(--secondary-txt-mode-light);
+
+}
+.nav-link,
+.contact-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-mode-light);    
+}
+.contact-link{
+    color: var(--primary-txt-mode-light);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--secondary-txt-mode-light);
+}
+
+.hero{
+    background-color: var(--bg-mode-dark) ;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-txt-mode-dark);
+}
+
+.hero-btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--main-txt-mode-dark);
+    background-color: var(--bg-button);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    color: var(--main-txt-mode-dark);
+    background-color: var(--bg-button);
+}   
+
+}
+.features-title,
+.main-title{
+    visibility: hidden;
+}
+.features-subtitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-txt-mode-light);
+}
+.features-descr,
+.map,
+.mail,
+.phone{
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: var(--primary-txt-mode-light);
+}
+
+.about-title,
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-mode-light);
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-name,
+.team-info{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-mode-light);
+}
+.team-info{
+    color: var(--primary-txt-mode-light)
+}
+.address{
+    font-style: normal;
+}
+.footer{
+    background-color: var(--bg-mode-dark);
+}
+.footer-logo{
+    color: var(--secondary-txt-mode-dark);
+}
+.logo-secondary{
+    color: var(--main-txt-mode-dark);
+}
+.map{
+    color: var(--main-txt-mode-dark);
+}
+.mail,
+.phone{
+ color: var(--primary-txt-mode-dark);
+ 
+}
+
+.map:hover,
+.map:focus,
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus{
+    color: var(--secondary-txt-mode-dark);
+}
+
+.pagination-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-txt-mode-light);
+background-color: #F5F4FA;
+cursor: pointer;
+}
+
+.pagination-btn:hover,
+.pagination-btn:focus{
+    color: var(--main-txt-mode-dark);
+    background-color: var(--bg-button);
+}
+
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-mode-light);
+}
+
+.project-category{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt-mode-light);
+}
+
+.project-category:hover,
+.project-category:focus{
+    color: var(--primary-txt-mode-light);
+}
