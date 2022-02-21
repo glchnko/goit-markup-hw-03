@@ -41,6 +41,8 @@ h1, h2, h3, p {
 .header-container{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 
@@ -243,6 +245,7 @@ h1, h2, h3, p {
 
 .team{
     background-color: #F5F4FA;
+    padding-bottom: 94px;
 }
 
 .team-title{
@@ -299,6 +302,7 @@ h1, h2, h3, p {
 
 .footer-logo{
     margin-bottom: 20px;
+
     color: var(--secondary-txt-mode-dark);
 }
 .logo-secondary{
